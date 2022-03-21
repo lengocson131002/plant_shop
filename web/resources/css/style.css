@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.form-auth {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.form-auth .input-group-text {
+    padding: 10px 15px;
+}
+
+.form .invalid-feedback {
+    display: inline-block !important;
+}
+
+table {
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table thead {
+    background: #e9ecef;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+
+.footer {
+    height: 100px;
+}
+
+/* styles cart*/
+
+.item__image {
+    width: 100px;
+    height: 100px;
+}
+
+.item__quantity input{
+    width: 50px;
+}
+.total-price {
+    font-weight: bold;
+    font-size: 24px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+
+.search__error {
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    font-size: 12px;
+    color: red;
+}
